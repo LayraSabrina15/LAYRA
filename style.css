@@ -1,0 +1,227 @@
+body {
+   width: 940px;
+   margin: 0 auto;
+   background: linear-gradient(#917db8,#9b87c3,#a692ce, #b19cd9,#bca7e4,#c7b1f0,#d2bcfb);
+   box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.menu{
+   background-color:#ad96d7;
+   position: fixed;
+   width: 940px;
+   
+}
+
+.menu ul {
+   display: flex;
+   margin-left: 100px;
+}
+
+.menu li {
+   padding: 15px;
+   margin: 10px;
+   font-family: initial;
+   text-transform: uppercase;
+   font-weight: bold;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 40px 10px;
+}
+
+.menu li a {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+}
+
+.menu li:hover {
+   background-color:#d2bcfb;
+   box-shadow:0 0 15px#d8d8d8;
+}
+  
+.foto-perfil{
+   border-radius:220px;
+   border: 2px solid #000000;
+   width: 340px;
+   height: 340px;
+   margin-left: 90px;
+   margin-bottom: 100px;
+   left: 200px;
+   box-shadow:0 0 15px#000000;
+}
+
+.dados-pessoais{
+   color: #000000;
+   padding-left: 60px;
+}
+
+.dados-pessoais h3{
+   margin-bottom: 20px;
+   padding-top:10px;
+}
+
+.dados-pessoais p{
+   margin-bottom: 10px;
+   padding-bottom:10px ;
+}
+
+.sobre-mim {
+   background:#a692ce;
+   padding: 48px 0;
+   color: rgb(0, 0, 0);
+   
+}
+
+.sobre-mim {
+  position: relative;
+  background-color: #c7b1f0;
+}
+
+.imagem-sobre-mim{
+   width: 350px;
+   margin: 25px;
+   border-radius:15px;
+   box-shadow:0 0 15px#0b0b0b;
+}
+
+.imagem-link1{
+   width: 25px;
+}
+
+.imagem-link2{
+   width: 55px;
+   margin: 60px 40px 90px 15px;
+}
+
+.inicio {
+   background-color:#beaae3;
+   padding-top: 150px;
+   display: flex;
+   box-shadow: 0 0 15px rgb(1, 1, 1)
+}
+
+.inicio h1 {
+   font-size: 2em;
+   font-family:'Rubik Marker Hatch' ;
+}
+
+.inicio h3 {
+font-size:1,5em;
+font-family: 'Rubik Marker Hatch';
+font-style:italic;
+}
+
+.inicio p{
+   font-size: 1,2em;
+   font-family:'Rubik Marker Hatch';
+ }  
+
+  .rede-social{
+   width: 35px;
+   margin-left: 150px;
+}
+
+.titulo{
+   font-weight: bold;
+   margin-bottom: 20px;
+   margin-top: 48px;
+   font-size: 30px;
+   text-align: left;
+   padding-left: 20px;
+}
+.titulo1{
+   text-align: center;
+   font-size: 50px;
+   margin: 30px;
+}
+
+.titulo {
+   font-weight: bold;
+   margin-bottom: 20px;
+   margin-top: 48px;
+   font-size: 30px;
+   text-align: left;
+   padding-left: 20px;
+}
+
+.titulo p, a  {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+}
+
+.meu-texto {
+   display: flex;
+   
+}
+
+.meu-texto p{
+   font-size: 30px;
+   margin: 25px;
+}
+
+.h1{
+   text-align: center;
+}
+
+#educacao p, #experiencia p, #habilidades p,#interesses p{
+   background-color:#917db8;
+   box-shadow: 1px 1px 16px (82 4 56 / 50%);
+   color: rgb(3, 4, 4);
+   padding: 18px;
+   display: inline-block;
+   border-radius: 8px 8px 8px 8px;
+   width: 45%;
+   box-sizing: border-box;
+   vertical-align: top;
+   height: 100px;
+   font-size: 20px;
+   margin: 2.3%;
+   text-align: center;
+   border: #000000;
+
+}
+
+#educacao p:hover, #experiencia p:hover, #habilidades p:hover,#interesses p:hover{
+   box-shadow:0 0 15px#450450;
+}
+
+.final {
+   background:#9180b1;
+   text-align: center;
+   box-shadow:0 0 15px#000000;
+}
+
+.final h1 {
+   padding: 30px;
+   font-size: 30px;
+}
+
+.final a {
+   text-decoration: none;
+}
+
+.final img {
+   width: 40px;
+}
+
+.ultimo p {
+   font-size: 20px;
+}
+
+
+/*celular*/
+@media screen and (max-width:600px){
+   menu li{
+      float: none;
+      text-align: center;
+      width:100%;
+   }
+   
+}
+  
+
+
+
+
+
+
+
+
